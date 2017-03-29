@@ -1,0 +1,74 @@
+body{
+  background-color: #002633; /* referenced from color-hex */
+}
+.myphoto{
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  margin-left: 1290px;
+}
+.myname{
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  font-size: 28px;
+  color:seashell;
+  font-weight: bold;
+  margin-top: -2px;
+  margin-left: 1292px;
+  text-shadow: 8px 8px black; /* defines shadow of a text with a specified height and width */
+}
+.start{
+  font-size: 52px;
+  color: Seashell;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  position: fixed; /* defines a text is exactly fitted at a same position whatever the action is taken */
+  margin-left: 522px;
+  margin-top: 118px;
+ -webkit-transform: rotate(-12deg); /* css animation property, rotates a text to a certain degree */
+}
+.header4{
+  font-family: Lobster , cursive; /* Google api font */
+  font-size: 32px;
+  list-style-type: none;
+}
+.back{
+  color: #E1D4F6; /* defines a color to a particular text, referenced from color-hex.com */
+  float: left;
+  position: fixed;
+  margin-left: 698px;
+  margin-top: 236px;
+}
+.back:hover{ /* identify some element with a short indication when we move cursor towards it */
+  background-color: black;
+  -webkit-transform: scale(1.4); /* zoom text with a certain scales, css animation property */
+}
+.extra{
+  color: #7CFC00; /* defines a color to a particular text i.e. lawngreen, referenced from color-hex.com */
+  float: left;
+  position: fixed;
+  margin-left: 726px;
+  margin-top: 318px;
+}
+.extra:hover{
+  background-color: black;
+  -webkit-transform: scale(1.4);
+}
+.contact{
+  color: 	#B22222; /*defines a firebrick color to a text, taken from color-hex.com */
+  float: left;
+  position: fixed;
+  margin-left: 702px;
+  margin-top: 400px;
+}
+.contact:hover{
+  background-color: black;
+  -webkit-transform: scale(1.4);
+}
+.more{
+  color: #ee7600; /* a dark orange, referenced from color-hex.con */
+  float: left;
+  margin-left: 730px;
+  margin-top: 482px;
+  position: fixed;
+}
+.more:hover{
+  background-color: black;
+  -webkit-transform: scale(1.4);
+}
