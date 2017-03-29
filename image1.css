@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+.header{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Georgia;
+  color: maroon;
+  padding-top: 12px;
+}
+.image11{
+  height:200px;
+  width:320px;
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 28px;
+}

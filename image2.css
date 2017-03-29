@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+.r{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Algerian;
+  color: maroon;
+  padding-top: 12px;
+}
+.image22{
+  height:200px;
+  width:320px;
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 28px;
+}

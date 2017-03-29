@@ -1,0 +1,238 @@
+@media only screen and (max-width: 502px) { /* defines a responsiveness of a body */
+body{
+  background-color: white;
+}
+}
+.header{
+ background-color:  #000F19; /* defines a background color to a particular header, referenced from color-hex.com */
+ margin-top: -8px; /* defines a top margin of a header and "-" indicates more closest to a top and vice-versa */
+ margin-right: -8px;
+ margin-left: -8px;
+ text-align: center; /* positions a text to a centre of a header */
+ color: #E1D4F6; /* defines a color of a text in a page, referenced from color-hex.com */
+}
+.d{
+  font-size: 46px;
+  font-family: Algerian; /* defines a font-type of a text */
+  font-weight: bold; /* boldens a text */
+  padding-top: 46px; /* defines a distance between text and a top element */
+}
+.b{
+  font-size: 32px; /* defines a size of a text */
+  font-family: Algerian;
+  padding-top: 16px;
+  text-decoration: underline; /* underlines a text */
+}
+.c{
+  font-size: 26px;
+  font-family: Georgia;
+  padding-top: 2px;
+  padding-bottom: 22px;
+}
+.i{
+  overflow: hidden; /* hides a extra boundaries from an element */
+  list-style-type: none; /* discards bullets and lists indicatives */
+  padding: 0;
+  margin: 0;
+}
+.j{
+font-family: Georgia;
+font-weight: bold;
+font-size: 18px;
+}
+.front{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: black; /* change a color of a text to black */
+  float:left; /* used to define a line in a horizontal manner for lists and navigations, also to create a box */
+  text-decoration: none;
+}
+.front:hover{ /* identify some element with a short indication when we move cursor towards it */
+  background-color: orange;  /* define the color of an indication with orange background */
+  transition-delay: 0.5s; /* create a time interval for indication when a cursor is moved towards text */
+}
+.extra{
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: black;
+  float:left;
+  text-decoration: none;
+}
+.extra:hover{
+  background-color: orange;
+  transition-delay: 0.5s;
+  margin-left: 10px; /* defines a boundary of a hover property in left hand side */
+  margin-right: 2px;
+  padding-right: 16px; /* defines a distance between a text and hover created */
+}
+.contact{
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: black;
+  float: left;
+  text-decoration: none;
+}
+.contact:hover{
+  background-color: orange;
+  transition-delay: 0.5s;
+  margin-left: 14px;
+  margin-right: 4px;
+  padding-right: 16px;
+}
+.more{
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: black;
+  float: left;
+  text-decoration: none;
+}
+.more:hover{
+  background-color: orange;
+  transition-delay: 0.5s;
+  margin-left: 10px;
+  margin-right: 2px;
+  padding-right: 14px;
+}
+.port image{
+  min-width: 100.5%; /* defines a boundary width for an image to fit in a screen */
+  min-height: 100%;  /* defines a boundary height for an image to fit in a screen */
+  display: block; /*defines a box property*/
+  margin: auto;
+  padding: 0;
+}
+.text{
+  position: absolute; /* positioned relative to background image, can run over image */
+  top: 1;
+  padding-top: 300px;
+  padding-left: 600px;
+  font-size: 38px;
+  font-family: Algerian;
+  font-weight: bold;
+}
+.count{
+  margin-left: -20px;
+  position: absolute;
+  padding-left: 684px;
+  padding-top: 150px;
+}
+.text1{
+  padding-top: 400px;
+  padding-left: 380px;
+  top:1;
+  font-size: 38px;
+  position: absolute;
+  color: #E1D4F6;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.web{
+  color: black;
+  position: static; /* position is default */
+  text-align: center;
+  margin-top: -40px;
+  margin-left: -380px;
+}
+.designer{
+  color: #E1D4F6;
+  margin-top: -44px;
+  padding-left: 220px;
+  position: fixed; /* defines a text is exactly fitted at a same position whatever the action is taken */
+}
+.and{
+  margin-left: 420px;
+  margin-top: 10px;
+  color: black;
+}
+.my{
+  margin-left: 630px;
+  margin-top: -104px;
+  color: #E1D4F6;
+}
+.creation{
+  color: #E1D4F6;
+  margin-left: 740px;
+  position: fixed;
+}
+.snaps{
+  text-align: center;
+  color: black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 38px;
+  padding-bottom:82px;
+}
+.image1{
+  padding-left: 500px;
+  margin-left: 120px;
+  margin-bottom: -216px;
+}
+.image1:hover{
+  -webkit-transform: scale(1.4); /* zoom image with a certain scales, animation property */
+}
+.image2{
+  padding-left: 1020px;
+  padding-top: 12px;
+  margin-top: 24px;
+  margin-bottom: -226px;
+  margin-left: 184px;
+}
+.image2:hover{
+  -webkit-transform: scale(0.9); /* zoom image with certain scales, animation property */
+}
+.image3{
+  padding-top: 32px;
+  margin-top: 4px;
+  margin-left: 2px;
+}
+.image3:hover{
+  -webkit-transform: scale(0.7); /* zoom image with a certain scales, animation property */
+}
+.footer{
+  background-color: Seashell; /* defines a background color of a footer */
+  padding-top: 180px;
+}
+.catch{
+  position: absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 102px;
+  padding-left: 12px;
+  background-color: black; /* defines a background color of a particular text */
+  height: 36px;
+  width:120px;
+  opacity: 0.6; /*decreases the clarity of a background color of a text and makes the second background visible through it */
+  margin-left: 20px;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+}
+.thunders{
+  position:absolute;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 4px;
+  padding-right: 2px;
+  padding-top: 2px;
+  margin-top: 102px;
+  background-color: black;
+  height:36px;
+  width:-1200px;
+  margin-left: 700px;
+  opacity: 0.6;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+}
+.day{
+  position: absolute;
+  font-size: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 1300px;
+  margin-top: 102px;
+  background-color: black;
+  opacity: 0.6;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+  padding: 4px;
+}
