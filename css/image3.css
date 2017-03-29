@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+.w{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Algerian;
+  color: orange;
+  padding-top: 12px;
+}
+.image33{
+  height:200px;
+  width:320px;
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 28px;
+}
