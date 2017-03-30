@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+}
+.contact1{
+  color: #E1D4F6; /* referenced from color-hex.com */
+  font-family: 'Monoton', cursive; /* Google api font */
+  font-size: 46px;
+  margin-top: -128px;
+  margin-left: 418px;
+  position: fixed;
+}
+.this{
+  font-size: 20px;
+  font-family: Lobster , cursive; /* Google api font */
+  display: -webkit-flex;
+  display: flex; /* defines an element to fit in different screen sizes */
+ -webkit-flex-direction: row-reverse; /* The direction will be defined right to left in a row */
+  flex-direction: row-reverse;
+  width: 220px;
+  height: 32px;
+  background-color: black;
+  border-style: solid; /* type of a border specified for flex property */
+  border-color: orange;
+  align-items: center;
+  margin-top: 200px;
+}
+.front{
+  float: left;
+  color: #ee7600; /* a dark orange, referenced from color-hex.com */
+  padding-right: 10px;
+  margin-top: -22px;
+}
+.front:hover{
+  -webkit-transform: scale(1.2);
+}
+.extra{
+  float: left;
+  color: #ee7600; /* a dark orange, referenced from color-hex.com */
+  padding-right: 10px;
+  margin-top: -22px;
+}
+.extra:hover{
+  -webkit-transform: scale(1.2);
+}
+.portfolio{
+  float: left;
+  color: #ee7600; /* a dark orange, referenced from color-hex.com */
+  padding-right: 10px;
+    margin-top: -22px;
+}
+.portfolio:hover{
+  -webkit-transform: scale(1.2);
+}
+.more{
+  float: left;
+  color: #ee7600; /* a dark orange, referenced from color-hex.com */
+  padding-right: 2px;
+  margin-top: -22px;
+  padding-left: 4px;
+}
+.more:hover{
+  -webkit-transform: scale(1.2);
+}
+.contact2{
+  padding-top: 102px;
+  color: white;
+  padding-right: 10px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.contact4{
+  padding-left: 102px;
+  padding-top: 46px;
+  position: fixed;
+}
+.contact5{
+  padding-left: 118px;
+}
+.button{
+  margin-left: 82px;
+  padding-top: 8px;
+}
+.footer2{
+  background-color: #483D8B;
+  padding-top: 32px;
+  margin-left: 90px;
+  margin-top: 82px;
+  width: 1200px;
+  height:96px;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 6px 4px black; /* defines a shadow of a text */
+  color: #E1D4F6; /* defines a color of a text in a page, referenced from color-hex.com */
+  -webkit-animation: footer2 4s linear infinite; /* a css animation property which changes the color of a defined footer2 for infinite loop in a duration
+                                                    of 4 seconds */
+}
+@keyframes footer2{ /* linked with animation property which defines the color to be shown in a looped flow */
+  0%,100% {background: #483D8B;}
+  25% {background: green;}
+  50% {background: orange;}
+  75% {background: maroon;}
+}
