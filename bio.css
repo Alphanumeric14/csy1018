@@ -1,0 +1,73 @@
+@media only screen and (max-width: 502px){ /* defines a responsiveness of a specified content */
+  body{
+    background-color: white;
+  }
+}
+.container{
+  display: flex; /* defines an element to fit in different screen sizes */
+  width: 220px;
+  height: 32px;
+  background-color: black;
+  border-style: solid; /* type of a border specified fpor flex property */
+  border-color: orange; /* a color specified for flex border */
+}
+.flexx{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  float: left;
+  color:orange;
+  padding-top: 2px;
+  -webkit-transform: rotate(12deg); /* rotates a text to specified degree, css animation property */
+}
+.flexx:hover{ /* identify some element with a short indication when we move cursor towards it */
+  background-color: white; /* define the color of an indication with orange background */
+  transition-delay: 0.5s; /* create a time interval for indication when a cursor is moved towards text */
+}
+.flexy{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  float: left;
+  color: orange;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.flexy:hover{
+  background-color: Seashell;
+  transition-delay: 0.5s;
+  padding-left: 4px;
+}
+.flexz{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 22px;
+  float: left;
+  color: orange;
+  padding-left: 10px;
+  padding-top: 2px;
+  -webkit-transform: rotate(-12deg); /* rotates a text to specified degree, css animation property */
+}
+.flexz:hover{
+  background-color: white;
+  transition-delay: 0.5s;
+  padding-left: 2px;
+}
+.top1{
+  font-family: Lobster , cursive; /* Google api font */
+  font-size: 52px;
+  text-align: center;
+  padding-top: 42px;
+}
+.top2{
+  padding-top: 18px;
+  font-size: 34px;
+  font-family: 'Tangerine', cursive; /* Google api font */
+  font-weight: bold; /* defines the quality or structure of a font */
+}
+.quote{
+  font-size: 38px;
+  padding-top: 38px;
+  color: #ee7600; /* a dark orange, referenced from color-hex.com */
+  font-weight: bold;
+}
