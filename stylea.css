@@ -1,0 +1,227 @@
+@media only screen and (max-width: 502px) { /* defines a responsiveness of a body */
+body{
+  margin: 0;
+  padding: 0;
+}
+}
+.i{
+  overflow: hidden; /* hides a extra boundaries from an element */
+  list-style-type: none; /* discards bullets and lists indicatives */
+  padding: 0;
+  margin: 0;
+  background-color: #000F19; /* defines a bzckground color i.e. lightened value, referenced from color-hex.com */
+}
+.j{
+font-family: Georgia;
+font-weight: bold;
+font-size: 18px;
+}
+.front{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+  float:left;
+  text-decoration: none;
+}
+.front:hover{ /* identify some element with a short indication when we move cursor towards it */
+  background-color: maroon; /* define the color of an indication with maroon background */
+  transition-delay: 0.5s; /* create a time interval for indication when a cursor is moved towards text */
+}
+
+.extra{
+  padding-left: 16px;
+  padding-bottom: 10px; /* defines a distance between text and a particular line or an element */
+  padding-top: 10px;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+  float:left;
+  text-decoration: none;
+}
+.extra:hover{
+  background-color: maroon;
+  transition-delay: 0.5s;
+  margin-left: 10px;
+  margin-right: 2px;
+  padding-right: 16px;
+}
+.contact{
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+  float: left;
+  text-decoration: none;
+}
+.contact:hover{
+  background-color: maroon;
+  transition-delay: 0.5s;
+  margin-left: 14px;
+  margin-right: 4px;
+  padding-right: 16px;
+}
+.more{
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #E1D4F6; /*defines a color of a text i.e. blue magenta group .. referenced from color-hex.com */
+  float: left;
+  text-decoration: none;
+}
+.more:hover{
+  background-color: maroon;
+  transition-delay: 0.5s;
+  margin-left: 10px;
+  margin-right: 2px;
+  padding-right: 14px;
+}
+.topbox{
+  font-size: 38px;
+  color: #AA4069; /*defines a color of a text i.e. rouge .. referenced from color-hex.com */
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.Down{
+  margin-left: 4px;
+  font-family: 'Arapey', serif; /* Google api font */
+  font-size: 26px;
+  color: #DA2647; /*defines a color of a text i.e. marron family .. referenced from color-hex.com */
+}
+.topboxi{
+  margin-left: 800px;
+  border-radius: 50%;
+  margin-top: -46px;
+}
+.content{
+  font-size: 20px;
+  font-family: 'Arapey', serif; /* Google api font */
+  color: red;
+  margin-top: 140px;
+  background-color: black;
+  padding: 10px;
+  margin-right: 1082px;
+}
+.e{
+  margin-top: 26px;
+  font-size: 18px;
+  color: green;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-left: 8px;
+  margin-right: 900px;
+  margin-left: 14px;
+}
+.e1{
+  font-size: 24px;
+  font-family: 'Arapey', serif; /* Google api font */
+  color:red;
+  padding: 8px;
+}
+.e4{
+  padding-left: 6px;
+}
+.date{
+  padding-left: 8px;
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.r{
+font-size: 20px;
+color: #C32148; /*defines a color of a text i.e. bright marron.. referenced from color-hex.com */
+padding: 14px;
+font-family: 'Arapey', serif; /* Google api font */
+margin-right: 900px;
+margin-left: 14px;
+padding-left: 4px;
+}
+.nami{
+  padding-left: 178px;
+  font-size: 16px;
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.UN{
+  padding-left: 178px;
+  font-size: 16px;
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.e2{
+  font-size: 18px;
+  color: green;
+  padding: 14px;
+  padding-left: 6px;
+  margin-left: 8px;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-right: 900px;
+  margin-left: 14px;
+}
+.exp2{
+  color:red;
+  font-size: 24px;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-bottom: 6px;
+}
+.skills{
+  font-size: 20px;
+  color: #C32148; /*defines a color of a text i.e. bright marron.. referenced from color-hex.com */
+  padding: 10px;
+  padding-left: 6px;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-right: 900px;
+  margin-left: 14px;
+}
+.feed{
+  font-size: 20px;
+  padding-left: 54px;
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.re{
+  color: green;
+  font-size: 18px;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-left: 14px;
+  margin-right: 900px;
+}
+.Related{
+  color:red;
+  font-size: 24px;
+  font-family: 'Arapey', serif; /* Google api font */
+  margin-left: -8px;
+  padding-left: 14px;
+  padding-top: 6px;
+}
+.clamp{
+  padding-left: 6px;
+  padding-top: 6px;
+}
+.add{
+  font-family: 'Arapey', serif; /* Google api font */
+  font-size: 22px;
+  color: #C32148; /*defines a color of a text i.e. bright marron.. referenced from color-hex.com */
+  padding-top: 20px;
+  padding-left: 4px;
+  margin-right: 900px;
+  margin-left: 14px;
+}
+.add1{
+  font-size: 18px
+  font-family: 'Arapey', serif; /* Google api font */
+}
+.footer2{
+  background-color: #483D8B;
+  padding-top: 32px;
+  margin-left: 90px;
+  margin-top: 82px;
+  width: 1200px;
+  height:96px;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive; /* Google api font */
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 6px 4px black; /* defines a shadow of a text */
+  color: #E1D4F6; /* defines a color of a text in a page, referenced from color-hex.com */
+  -webkit-animation: footer2 4s linear infinite; /* a css animation property which changes the color of a defined footer2 for infinite loop in a duration
+                                                    of 4 seconds */
+}
+@keyframes footer2{ /* linked with animation property which defines the color to be shown in a looped flow */
+  0%,100% {background: #483D8B;}
+  25% {background: green;}
+  50% {background: orange;}
+  75% {background: maroon;}
+}
